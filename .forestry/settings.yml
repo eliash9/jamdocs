@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: BAB
 - type: directory
   path: isi folder disini
   label: BAB I
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - documentation-page
-- type: heading
-  label: BAB
 - type: heading
   label: Content
 - type: directory
